@@ -72,3 +72,44 @@ body {
 .footer-widget a:hover i {
   color: red;
 }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-icon {
+            font-size: 18px;
+            color: #3a6cf4;
+            /* Nice highlight color */
+            margin-right: 8px;
+        }
+
+        .contact-text h5 {
+            margin: 0;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: #555;
+        }
+
+        .contact-text p {
+            margin: 0;
+            font-size: 13px;
+            color: #000;
+            font-weight: 500;
+        }
+.single-counter {
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.single-counter:hover {
+  color: red;
+}
+
+.single-counter:hover img {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(95%) saturate(7450%) hue-rotate(0deg) brightness(90%) contrast(100%);
+
+}
