@@ -1,0 +1,74 @@
+.single-about-text p i{
+  color: #ff0000 !important;
+}
+
+.h3 {
+  color:#ff0000 !important
+}
+
+body {
+  background: url('../img/web_grayandblack.png');
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+/* style.css */
+body {
+    background-image: url('../img/web_grayandblack.png');
+    color: rgb(0, 0, 0);
+}
+.custom-icon {
+  width: 50px;        /* Set width as needed */
+  height: auto;       /* Keep aspect ratio */
+  display: block;
+  margin: 0 auto 20px auto; /* Center it and give space below */
+}
+.custom-icon {
+  font-size: 50px; /* This doesn’t affect images but can help match size */
+  width: 50px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s;
+}
+.single-feature {
+    text-align: center;
+}
+.white-icon {
+    filter: brightness(0) invert(1);
+    width: 60px;
+    height: auto;
+}
+.single-about-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.feature-icon {
+    width: 40px;
+    height: auto;
+    filter: brightness(0) invert(1);
+    color: #000000;
+
+}
+.header-left a {
+    margin-right: 10px;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.header-left a:hover {
+    color: #e74c3c;
+}
+.footer-widget i {
+  color: #000;
+}
+
+.footer-widget a:hover i {
+  color: red;
+}
